@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(10, 10, 77);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(9, 9, 105);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(134, 134, 235);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 2rem;
+    margin: 70px;
+
+}
+
+.rightsection img {
+    /* background-color: red; */
+    width: 80%;
+
+}
+
+.purple {
+    color: rgb(125, 36, 209);
+}
+
+.text-gray {
+    color: grey;
+}
+
+#element {
+    color: aquamarine;
+}
+#name{
+    color: rgb(4, 38, 149);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection h1 {
+    text-align: justify;
+
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+
+}
+img{
+    
+        vertical-align: middle;
+        width: 100px;
+        height: 450px;
+        border-radius: 50%;
+
+
+
+}
+button {
+  background-color: #24409d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+    background-color: black;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0 100px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 90px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 90px;
+    color: gray;
+    width: 156px;
+    font-size: 9px;
+
+}
+
+
+footer {
+    background-color: rgb(29, 30, 65);
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+}
+
+.dp {
+    margin-top: 43px;
+}
